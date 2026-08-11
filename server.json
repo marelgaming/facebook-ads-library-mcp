@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.proxy-intell/facebook-ads-library",
+  "description": "The most visual MCP server for the Facebook Ad Library. Search any advertiser and your AI surfaces real creatives in-context — images, headlines, and audience targeting — all inside your chat.",
+  "repository": {
+    "url": "https://github.com/proxy-intell/facebook-ads-library-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@proxy-intell/facebook-ads-library-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
