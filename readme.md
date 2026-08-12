@@ -1,5 +1,3 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/proxy-intell-facebook-ads-library-mcp-badge.png)](https://mseep.ai/app/proxy-intell-facebook-ads-library-mcp)
-
 [![Proxy — Facebook Ads Library Hosted MCP](assets/banner.png)](https://useproxy.dev/)
 
 # Facebook Ads Library MCP Server
@@ -247,3 +245,4 @@ This project is licensed under the MIT License.
 ---
 
 Made with ❤️ by the team at [Proxy](https://useproxy.dev/).
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/proxy-intell-facebook-ads-library-mcp-badge.png)](https://mseep.ai/app/proxy-intell-facebook-ads-library-mcp)
