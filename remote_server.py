@@ -33,7 +33,14 @@ mcp = FastMCP(
 )
 
 
-@mcp.tool()
+@mcp.tool(
+    description="Search Meta Ad Library for one or more brand names and return matching Meta Page IDs.",
+    annotations={
+        "title": "Search Meta Ad Library Brands",
+        "readOnlyHint": True,
+        "openWorldHint": True,
+    },
+)
 def get_meta_platform_id(brand_names: Union[str, List[str]]) -> Dict[str, Any]:
     """Search Meta Ad Library for brand names and return matching Meta Page IDs."""
     if isinstance(brand_names, str):
@@ -59,7 +66,14 @@ def get_meta_platform_id(brand_names: Union[str, List[str]]) -> Dict[str, Any]:
     }
 
 
-@mcp.tool()
+@mcp.tool(
+    description="Retrieve currently running Meta ads for one or more Meta Page IDs, optionally filtered by a 2-letter country code such as GB or US.",
+    annotations={
+        "title": "Get Meta Ad Library Ads",
+        "readOnlyHint": True,
+        "openWorldHint": True,
+    },
+)
 def get_meta_ads(
     platform_ids: Union[str, List[str]],
     limit: int = 50,
