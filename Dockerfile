@@ -12,6 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application source
 COPY src ./src
 COPY mcp_server.py .
+COPY remote_server.py .
 
 # Default command
-ENTRYPOINT ["python", "mcp_server.py"]
+ENTRYPOINT ["python", "remote_server.py"]
